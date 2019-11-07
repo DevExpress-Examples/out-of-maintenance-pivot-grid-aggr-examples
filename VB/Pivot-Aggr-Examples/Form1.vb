@@ -27,6 +27,7 @@ Namespace Pivot_Aggr_Examples
 			' Process code files.
 			CodeExample.pivotGrid = pivotGridControl1
 			CreateMethodDictionaries()
+			richTextBox1.Font = New Font(FontFamily.GenericMonospace, 10)
 		End Sub
 
 		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load

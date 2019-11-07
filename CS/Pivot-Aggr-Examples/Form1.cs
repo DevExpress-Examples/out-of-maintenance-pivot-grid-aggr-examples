@@ -33,6 +33,7 @@ namespace Pivot_Aggr_Examples
             // Process code files.
             CodeExample.pivotGrid = pivotGridControl1;
             CreateMethodDictionaries();
+            richTextBox1.Font = new Font(FontFamily.GenericMonospace, 10);
         }
 
         private void Form1_Load(object sender, EventArgs e)
