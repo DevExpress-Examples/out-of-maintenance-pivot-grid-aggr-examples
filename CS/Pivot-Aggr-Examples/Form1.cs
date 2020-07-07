@@ -29,6 +29,7 @@ namespace Pivot_Aggr_Examples
                 treeList1.AppendNode(new object[] { exampleNames[i] }, -1);
             treeList1.FocusedNodeChanged += treeList1_FocusedNodeChanged;
             // Provide data.
+            excelDataSource1.FileName = @"SalesPerson.xlsx";
             excelDataSource1.Fill();
             // Process code files.
             CodeExample.pivotGrid = pivotGridControl1;

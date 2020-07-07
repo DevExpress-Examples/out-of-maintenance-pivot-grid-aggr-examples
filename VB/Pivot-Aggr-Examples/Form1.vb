@@ -23,6 +23,7 @@ Namespace Pivot_Aggr_Examples
 			Next i
 			AddHandler treeList1.FocusedNodeChanged, AddressOf treeList1_FocusedNodeChanged
 			' Provide data.
+			excelDataSource1.FileName = "SalesPerson.xlsx"
 			excelDataSource1.Fill()
 			' Process code files.
 			CodeExample.pivotGrid = pivotGridControl1
